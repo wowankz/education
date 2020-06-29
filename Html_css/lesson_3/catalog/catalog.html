@@ -4,54 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Каталог</title>
 </head>
 
 <body>
-    <div style="padding-bottom: 80px;min-height: 90vh;position: relative;">
-        <header>
-            <div>
-                <ul class="menu">
-                    <li><a href="../index.html">Главная</a></li>
-                    <li><a href="#">Каталог</a></li>
-                    <li><a href="../contacts.html">Контакты</a></li>
+    <div class="page">
+        <header class="header page__header">
+            <div class="header__container">
+                <div class="header__logo"></div>
+                <ul class="menu menu_row">
+                    <li class="menu__item menu__item_button"><a class="menu__link" href="../index.html">Главная</a></li>
+                    <li class="menu__item menu__item_button"><a class="menu__link" href="#">Каталог</a></li>
+                    <li class="menu__item menu__item_button"><a class="menu__link" href="../contacts.html">Контакты</a></li>
                 </ul>
             </div>
-            <hr>
         </header>
 
-        <main>
-            <div>
-                <h1>Каталог оборудования</h1>
+        <main class="main page__main">
+            <div class="main__container">
+                <section class="products">
+                    <h1>Каталог оборудования</h1>
 
-                <ul style="list-style-type: none;">
-                    <li style="display: inline-block;padding: 15px;">
-                        <a href="../products/auto_sound.html"><img width="150" src="../images/ACV_WD-7010.jpg" alt="ACV_WD-7010.jpg"><br>ACV_WD-7010</a>
-                    </li>
-                    <li style="display: inline-block;padding: 15px;">
-                        <a href="../products/antitheft_device.html"><img width="150" src="../images/garant_CL1.218.F.png" alt="garant_CL1.218.F"><br>Garant_CL1.218.F</a>
-                    </li>
-                    <li style="display: inline-block;padding: 15px;">
-                        <a href="../products/car_accessories.html"><img width="150" src="../images/heat_shield_l.png" alt="heat_shield_l"><br>Heat_Shield_l</a>
-                    </li>
-                    <li style="display: inline-block;padding: 15px;">
-                        <a href="../products/noise_insulation.html"><img width="150" src="../images/NoiseBlock_2.png" alt="NoiseBlock_2"><br>NoiseBlock_2</a>
-                    </li>
-                    <li style="display: inline-block;padding: 15px;">
-                        <a href="../products/car_electronics.html"><img width="150" src="../images/ParkMaster_8-FJ-27-Black.png" alt="ParkMaster_8-FJ-27-Black"><br>ParkMaster_8-FJ-27-Black</a>
-                    </li>
-                    <li style="display: inline-block;padding: 15px;">
-                        <a href="../products/security_system.html"><img width="150" src="../images/StarLine_A93_2CAN-2LIN_ECO.png" alt="StarLine_A93_2CAN-2LIN_ECO"><br>StarLine_A93_2CAN-2LIN_ECO</a>
-                    </li>
-                </ul>
+                    <ul class="list-products list-products_col">
+                        <li class="list-products__item list-products__item_col">
+                            <a class="list-products__link" href="../products/auto_sound.html">
+                                <div class="list-products__img">
+                                    <img src="../images/ACV_WD-7010.jpg" alt="ACV_WD-7010.jpg">
+                                </div>
+                                <p>ACV_WD-7010</p>
+                            </a>
+                        </li>
+                        <li class="list-products__item list-products__item_col">
+                            <a class="list-products__link" href="../products/antitheft_device.html">
+                                <div class="list-products__img">
+                                    <img src="../images/garant_CL1.218.F.png" alt="garant_CL1.218.F">
+                                </div>
+                                <p>Garant_CL1.218.F</p>
+                            </a>
+                        </li>
+                        <li class="list-products__item list-products__item_col">
+                            <a class="list-products__link" href="../products/car_accessories.html">
+                                <div class="list-products__img">
+                                    <img src="../images/heat_shield_l.png" alt="heat_shield_l">
+                                </div>
+                                <p>Heat_Shield_l</p>
+                            </a>
+                        </li>
+                        <li class="list-products__item list-products__item_col">
+                            <a class="list-products__link" href="../products/noise_insulation.html">
+                                <div class="list-products__img">
+                                    <img src="../images/NoiseBlock_2.png" alt="NoiseBlock_2">
+                                </div>
+                                <p>NoiseBlock_2</p>
+                            </a>
+                        </li>
+                        <li class="list-products__item list-products__item_col">
+                            <a class="list-products__link" href="../products/car_electronics.html">
+                                <div class="list-products__img">
+                                    <img src="../images/ParkMaster_8-FJ-27-Black.png" alt="ParkMaster_8-FJ-27-Black">
+                                </div>
+                                <p>ParkMaster_8-FJ-27-Black</p>
+                            </a>
+                        </li>
+                        <li class="list-products__item list-products__item_col">
+                            <a class="list-products__link" href="../products/security_system.html">
+                                <div class="list-products__img">
+                                    <img src="../images/StarLine_A93_2CAN-2LIN_ECO.png" alt="StarLine_A93_2CAN-2LIN_ECO">
+                                </div>
+                                <p>StarLine_A93_2CAN-2LIN_ECO</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
             </div>
         </main>
 
-        <footer style="position: absolute; bottom: 0;width: 100%;height: 80px;">
-            <hr>
-            <div style="margin: 0 auto; max-width: 95vw;">
-                <br>Copyright &copy; 2020. Все права защищены.
-                <br>
+        <footer class="footer page__footer">
+            <div class="footer__container">
+                <div class="copyright">Copyright &copy; 2020. Все права защищены.</div>
             </div>
         </footer>
     </div>
