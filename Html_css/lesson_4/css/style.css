@@ -80,7 +80,6 @@ h6 {
 
 .menu {
     list-style-type: none;
-    color: #20B2AA;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -94,15 +93,33 @@ h6 {
 .menu__item_button {
     border: 1px solid #ccc;
     border-radius: 2px;
-    padding: 10px 15px;
+    padding: 10px 0;
     margin: 5px 10px;
     text-transform: uppercase;
     font-size: 0.8rem;
 }
 
+.menu__item_button:hover {
+    border: 1px solid #32CD32;
+}
+
+.menu__item_button:active {
+    border: 1px solid #778899;
+}
+
 .menu__link {
     text-decoration: none;
-    color: #20B2AA;
+    color: #008B8B;
+    padding: 10px 20px
+}
+
+.menu__link:hover {
+    text-decoration: none;
+    color: #32CD32;
+}
+
+.menu__link:active {
+    color: #778899;
 }
 
 .copyright {
@@ -163,12 +180,23 @@ h6 {
     height: 300px;
 }
 
+.product__img:hover {
+    outline: none;
+    height: 300px;
+}
+
 .product__h3 {
     color: #000;
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
     padding: 10px;
+}
+
+.product__h3::first-letter {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .product__desc {
@@ -187,6 +215,21 @@ h6 {
 
 .property__list {
     list-style-image: url(../images/list_stile_star.png);
+}
+
+.property__table {
+    border: 1px solid #A9A9A9;
+    border-collapse: collapse;
+    width: 600px;
+    /* height: 500px; */
+}
+
+.property__table td {
+    border: 1px solid #A9A9A9;
+}
+
+.property__table td[rowspan="4"] {
+    background-color: coral;
 }
 
 
@@ -233,16 +276,25 @@ h6 {
     margin: 0 0 15px;
 }
 
+.form input[name="email"]:focus {
+    color: #00FF00;
+}
+
 .form textarea {
     border: 1px solid #DCDCDC;
     color: #778899;
     font-size: 16px;
     width: 100%;
+    text-transform: capitalize;
 }
 
 .form textarea:focus,
 .form input:focus {
     outline-color: #20B2AA;
+}
+
+.form textarea:focus {
+    text-transform: capitalize;
 }
 
 .contact__feedback-form {
