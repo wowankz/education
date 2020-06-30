@@ -123,6 +123,7 @@ h6 {
 
 .list-products__item {
     border: 1px solid #DCDCDC;
+    border-radius: 2px;
     margin: 15px 0;
 }
 
@@ -180,3 +181,69 @@ h6 {
 
 
 /* ======================== Product Page end ================== */
+
+
+/* ======================== Page contact ====================== */
+
+.main__contact {
+    float: left;
+}
+
+.form {
+    color: #778899;
+}
+
+.form>fieldset {
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+}
+
+.form legend {
+    padding: 0 10px;
+    margin: 0;
+}
+
+.form h4 {
+    margin: 0;
+    margin: 5px 0;
+}
+
+.form input {
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DCDCDC;
+    color: #778899;
+    font-size: 16px;
+    margin: 0 0 15px;
+}
+
+.form textarea {
+    border: 1px solid #DCDCDC;
+    color: #778899;
+    font-size: 16px;
+    width: 100%;
+}
+
+.form textarea:focus,
+.form input:focus {
+    outline-color: #20B2AA;
+}
+
+.contact__feedback-form {
+    float: right;
+    width: 40%;
+}
+
+.form-button {
+    text-align: right;
+    margin: 10px 0;
+}
+
+.form-button .button-send,
+.form-button .button-reset {
+    width: 40%;
+}
+
+
+/* ======================== Page contact end ====================== */
