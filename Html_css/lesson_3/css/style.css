@@ -51,6 +51,7 @@ h6 {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    margin: 10vh 0 0 0;
 }
 
 .about-compony__img {
@@ -87,6 +88,7 @@ h6 {
 .menu_row {
     display: flex;
     padding: 0;
+    justify-content: flex-end;
 }
 
 .menu__item_button {
@@ -128,9 +130,15 @@ h6 {
     background-color: #fff;
 }
 
+.list-products__item_col:hover {
+    box-shadow: 4px 4px 10px 0px #A9A9A9;
+    ;
+    padding: 5px 10px;
+}
+
 .list-products__item_col {
     padding: 10px 15px;
-    flex-basis: 33%;
+    flex-basis: 32%;
     text-align: center;
 }
 
@@ -189,6 +197,11 @@ h6 {
 
 .main__contact {
     float: left;
+}
+
+.contact__map {
+    border: 1px solid #eee;
+    border-radius: 2px;
 }
 
 .form {
