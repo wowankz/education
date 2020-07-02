@@ -197,6 +197,7 @@ h6 {
     font-size: 25px;
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
+    color: #2E8B57;
 }
 
 .product__desc {
@@ -250,8 +251,8 @@ h6 {
 }
 
 .property__table th {
-    background-color: #246fa5;
-    color: #fff;
+    background-color: #2E8B57;
+    color: #D3D3D3;
     text-transform: uppercase;
     padding: 5px 0;
     font-size: 0.9rem;
@@ -299,10 +300,12 @@ h6 {
     color: #778899;
     font-size: 16px;
     margin: 0 0 15px;
+    text-transform: capitalize;
 }
 
 .form input[name="email"]:focus {
-    color: #00FF00;
+    color: #fff;
+    background-color: #DCDCDC;
 }
 
 .form textarea {
