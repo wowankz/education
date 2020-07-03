@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #808080;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #008b8b;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* ============= header ============== */
+.header {
+  background-image: url(../images/header_fon.png);
+}
+
+.header__content {
+  height: 160px;
+  overflow: hidden;
+}
+.logo {
+  float: left;
+  margin: 2px 0 0 115px;
+}
+
+.logo__img {
+  width: 250px;
+}
+
+.menu__list {
+  list-style-type: none;
+}
+.menu__list_row {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu__item {
+  font-size: 0.8rem;
+}
+.menu__item a {
+  text-decoration: none;
+}
+
+.menu__item_button {
+  min-width: 100px;
+  border: 1px solid #dcdcdc;
+  border-radius: 2px;
+  margin: 5px 10px;
+  text-align: center;
+  box-shadow: 2px 2px 4px 0px #808080;
+}
+.menu__item_button:hover {
+  align-self: baseline;
+  margin-top: 4px;
+}
+.menu__item_button:active {
+  box-shadow: inset 1px 1px 2px 0px #808080;
+  margin-top: 5px;
+}
+
+.menu__item_button a {
+  display: block;
+  color: #008b8b;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px;
+}
+
+/* ============= header end =========== */
+
+/* ============= main ================ */
+.main__content {
+  min-height: calc(100vh - 260px);
+  background: rgb(220, 220, 220);
+  background: linear-gradient(
+    0deg,
+    rgba(220, 220, 220, 1) 0%,
+    rgba(220, 220, 220, 1) 20%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.about-compony {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  margin: 10vh 0 0 0;
+}
+
+.about-compony__img {
+  width: 35%;
+  /* box-shadow: 2px 2px 10px #757575ba; */
+}
+
+.about-compony__desc {
+  padding: 10px 15px;
+  width: 60%;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.about-compony__desc > p::first-letter {
+  font-size: 25px;
+  font-weight: 700;
+  color: #2f4f4f;
+}
+
+/* ============= main end============= */
+
+/* ============= footer =============== */
+.footer__content {
+  height: 100px;
+  background-color: #696969;
+  text-align: right;
+  overflow: hidden;
+}
+
+.footer__copyright {
+  margin: 50px 440px 0 0;
+  color: #dcdcdc;
+}
+/* ============= footer end ========== */
