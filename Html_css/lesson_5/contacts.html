@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Контакты</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="header__content">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo ComfortAuto" class="logo__img">
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list menu__list_row">
+                        <li class="menu__item menu__item_button"><a href="index.html">Главная</a></li>
+                        <li class="menu__item menu__item_button"><a href="catalog.html"> Каталог</a></li>
+                        <li class="menu__item menu__item_button"><a href="#">Контакты</a></li>
+                        <li class="menu__item menu__item_button"><a href="#">Корзина</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main ">
+            <div class="main__content">
+                <div class="contact">
+                    <h1>Наши контакты</h1>
+                    <div class="contact__address">
+                        <h2>Адреса и телефоны</h2>
+                        <table class="contact__table">
+                            <tr>
+                                <td colspan="2"><b>Установочный центр</b></td>
+                            </tr>
+                            <tr>
+                                <td>Контактный телефон:</td>
+                                <td>+7 999 888 88 88</td>
+                            </tr>
+                            <tr>
+                                <td>E-mail:</td>
+                                <td>e-mail_serv@mail.ru</td>
+                            </tr>
+                            <tr>
+                                <td>Адрес:</td>
+                                <td>г Екатеринбург <br>ул Академика бардина 28</td>
+                            </tr>
+                            <tr></tr>
+                            <tr>
+                                <td colspan="2"><b>Магазин</b></td>
+                            </tr>
+                            <tr>
+                                <td>Контактный телефон:</td>
+                                <td>+7 999 888 88 88</td>
+                            </tr>
+                            <tr>
+                                <td>E-mail:</td>
+                                <td>e-mail_shop@mail.ru</td>
+                            </tr>
+                            <tr>
+                                <td>Адрес:</td>
+                                <td>г Екатеринбург <br>ул Академика бардина 28</td>
+                            </tr>
+                        </table>
+                        <!-- <p>Контактный телефон: &nbsp;+7 999 888 88 88</p>
+                        <p>E-mail: &nbsp;&nbsp;e-mail_company@mail.ru</p>
+                        <p>Адрес: &nbsp;&nbsp;&nbsp;г Екатеринбург ул Академика бардина 28</p> -->
+                    </div>
+                    <div class="contact__feedback-form">
+                        <form class="form" action="#">
+                            <fieldset>
+                                <legend>
+                                    <h2>Напишите нам</h2>
+                                </legend>
+                                <div class="form__data">
+                                    <label>
+                                        <b>Ваше имя:</b><br>
+                                        <input type="text" name="name" placeholder="Ваше имя">
+                                    </label>
+                                    <label>
+                                        <b>E-mail:</b><br>
+                                        <input type="email" name="email" placeholder="exempel@mail.ru">
+                                    </label>
+                                    <label>
+                                        <b>Тема сообщения:</b><br>
+                                        <input type="text" name="topic" placeholder="Тема сообщения">
+                                    </label>
+                                    <label>
+                                        <b>Телефон :</b><br>
+                                        <input type="tel" name="phone" placeholder="79998887766" pattern="7[0-9]{10}">
+                                    </label>
+                                    <label>
+                                        <b>Текст сообщение:</b><br>
+                                        <textarea rows="10" cols="45" name="message"></textarea>
+                                    </label>
+                                </div>
+                                <div class="form__button">
+                                    <input class="button-send" type="submit" value="Отправить">
+                                    <input class="button-reset" type="reset" value="Очистить">
+                                </div>
+
+                            </fieldset>
+
+                        </form>
+                    </div>
+                    <div class="contact__map">
+                        <iframe class="map"
+                            src="https://yandex.ru/map-widget/v1/?um=constructor%3Adb8122f3cd8a34b2303a1cdc098f9ad9254d11530b66eee491712375a781d628&amp;source=constructor"
+                            width="100%" height="374">
+                        </iframe>
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__copyright">Copyright &copy; 2020. Все права защищены.</div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

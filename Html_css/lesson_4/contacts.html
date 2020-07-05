@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Контакты</title>
+</head>
+
+<body>
+
+    <div class="page">
+        <header class="header page__header">
+            <div class="header__container">
+                <div class="header__logo"></div>
+                <ul class="menu menu_row">
+                    <li class="menu__item menu__item_button">
+                        <a class="menu__link" href="index.html">Главная</a>
+                    </li>
+                    <li class="menu__item menu__item_button">
+                        <a class="menu__link" href="catalog/catalog.html">Каталог</a>
+                    </li>
+                    <li class="menu__item menu__item_button">
+                        <a class="menu__link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main class="main page__main">
+            <div class="main__container">
+                <section class="contact main__contact">
+                    <h1>Наши контакты</h1>
+                    <address>
+                        <p>Контактный телефон: &nbsp;+7 999 888 88 88</p>
+                        <p>E-mail: &nbsp;&nbsp;e-mail_company@mail.ru</p>
+                        <p>Адрес: &nbsp;&nbsp;&nbsp;г Екатеринбург ул Академика бардина 28</p>
+                        <p>
+                            На карте: <br><br>
+                            <iframe class="contact__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Adb8122f3cd8a34b2303a1cdc098f9ad9254d11530b66eee491712375a781d628&amp;source=constructor" width="650" height="430" ></iframe>
+                        </p>
+                    </address>
+                </section>
+                <section class="feedback-form contact__feedback-form">
+                    <form class="form" action="#">
+                        <fieldset>
+                            <legend>
+                                <h2>Напишите нам</h2>
+                            </legend>
+                            <label>
+                                   <h4>Ваше имя:</h4>
+                                    <input type="text" name="name" placeholder="Ваше имя">
+                                </label>
+                            <label>
+                                   <h4>E-mail:</h4>
+                                    <input type="email" name="email" placeholder="exempel@mail.ru">
+                                </label>
+                            <label>
+                                   <h4>Тема сообщения:</h4>
+                                    <input type="text" name="topic" placeholder="Тема сообщения">
+                                </label>
+                            <label>
+                                   <h4>Текст сообщение:</h4>
+                                    <textarea rows="10" cols="45" name="message"></textarea>
+                                </label>
+                            <div class="form-button">
+                                <input class="button-send" type="submit" value="Отправить">
+                                <input class="button-reset" type="reset" value="Очистить">
+                            </div>
+
+                        </fieldset>
+
+                    </form>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer page__footer">
+            <div class="footer__container">
+                <div class="copyright">Copyright &copy; 2020. Все права защищены.</div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
