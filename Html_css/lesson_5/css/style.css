@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); */
 
 body {
   margin: 0;
@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #0074b4;
+  color: #00b294;
 }
 
 .container {
@@ -50,6 +50,11 @@ h6 {
 .menu__item {
   font-size: 0.8rem;
 }
+
+.menu__item:last-child {
+  display: none;
+}
+
 .menu__item a {
   text-decoration: none;
 }
@@ -60,10 +65,11 @@ h6 {
   border-radius: 2px;
   margin: 5px 10px;
   text-align: center;
-  box-shadow: 2px 2px 4px 0px #808080;
+  /* box-shadow: 2px 2px 4px 0px #808080; */
 }
 .menu__item_button:hover {
   align-self: baseline;
+  box-shadow: 2px 2px 4px 0px #8080807a;
   /* margin-top: 4px; */
 }
 .menu__item_button:active {
@@ -73,7 +79,7 @@ h6 {
 
 .menu__item_button a {
   display: block;
-  color: #6495ed;
+  color: #2e8b57;
   text-transform: uppercase;
   font-weight: 700;
   padding: 10px;
@@ -164,7 +170,7 @@ h6 {
   width: 100%;
 }
 .contact__table td[colspan="2"] {
-  color: #00a7db;
+  color: #00cc6a;
   font-size: 1.1rem;
 }
 
@@ -174,7 +180,7 @@ h6 {
   background-color: #fff;
   border-radius: 4px;
   padding: 10px;
-  color: #00a7db;
+  color: #00cc6a;
   /* font-size: 0.9rem; */
 }
 
@@ -238,12 +244,16 @@ h6 {
   padding: 10px 20px;
   margin: 0 5px;
   font-weight: 700;
-  color: #6495ed;
+  color: #2e8b57;
   background-color: #fff;
   font-size: 0.7rem;
   text-transform: uppercase;
 }
 
+.button-send:hover,
+.button-reset:hover {
+  background-color: #f5f5f5;
+}
 .button-send:focus,
 .button-reset:focus {
   outline-color: #008b8b;
@@ -263,7 +273,7 @@ h6 {
 
 /* ================== Products Page ==================== */
 .products {
-  padding: 10px 0;
+  border: 1px solid transparent;
 }
 .list-products {
   list-style-type: none;
@@ -290,7 +300,7 @@ h6 {
 
 .list-products__item_col {
   padding: 10px 15px;
-  flex-basis: 32%;
+  flex-basis: 30%;
   text-align: center;
 }
 
@@ -308,6 +318,13 @@ h6 {
 
 /* ======================== Product Page ================== */
 
+.product {
+  padding: 1px 0 10px;
+}
+.product > a {
+  display: block;
+  float: left;
+}
 .product__img {
   outline: #20b2aa solid 1px;
   height: 300px;
@@ -345,8 +362,46 @@ h6 {
   font-size: 14px;
   font-style: italic;
   line-height: 16px;
+  padding-left: 10px;
+  overflow: hidden;
+  position: relative;
+  height: 300px;
 }
 
+.product__button-buy {
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  padding: 10px 15px;
+}
+
+.product__button-buy input {
+  padding: 10px 25px;
+  border: 1px solid #2e8b57;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #2e8b57;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.product__button-buy input:hover {
+  background-color: #2e8b57;
+  color: #fafafa;
+}
+
+.product__button-buy input:active {
+  outline-color: #ffb900;
+}
+
+.property {
+  clear: both;
+  padding-top: 1px;
+}
 .property__list {
   list-style-image: url(../images/list_stile_star.png);
 }
