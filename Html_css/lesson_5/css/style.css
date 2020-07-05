@@ -112,6 +112,7 @@ h6 {
   width: 60%;
   line-height: 1.5;
   font-style: italic;
+  font-size: 1.2rem;
 }
 
 .about-compony__desc > p::first-letter {
@@ -164,6 +165,7 @@ h6 {
 }
 .contact__table td[colspan="2"] {
   color: #00a7db;
+  font-size: 1.1rem;
 }
 
 .contact__feedback-form {
@@ -225,7 +227,7 @@ h6 {
   outline-color: #20b2aa;
 }
 
-.form-button {
+.form__button {
   text-align: right;
 }
 
@@ -258,3 +260,135 @@ h6 {
   border-radius: 4px 4px 0 0;
 }
 /*============================= contact end ===================================*/
+
+/* ================== Products Page ==================== */
+.products {
+  padding: 10px 0;
+}
+.list-products {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-products_col {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.list-products__item {
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  margin: 15px 0;
+  background-color: #fff;
+}
+
+.list-products__item_col:hover {
+  box-shadow: 4px 4px 10px 0px #a9a9a9;
+  /* padding: 5px 10px; */
+}
+
+.list-products__item_col {
+  padding: 10px 15px;
+  flex-basis: 32%;
+  text-align: center;
+}
+
+.list-products__link {
+  text-decoration: none;
+  color: #20b2aa;
+  text-transform: uppercase;
+}
+
+.list-products__img > img {
+  height: 150px;
+}
+
+/* ================== Products Page end ==================== */
+
+/* ======================== Product Page ================== */
+
+.product__img {
+  outline: #20b2aa solid 1px;
+  height: 300px;
+}
+
+.product__img:hover {
+  outline: none;
+  height: 300px;
+}
+
+.product__h3 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #eaeaea;
+  padding: 10px;
+}
+
+.product__h3::first-letter {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  color: #2e8b57;
+}
+
+.product__desc {
+  color: #484343;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.product__desc_short {
+  color: #707070;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+}
+
+.property__list {
+  list-style-image: url(../images/list_stile_star.png);
+}
+
+.property__table {
+  border: 1px solid #a9a9a9;
+  border-collapse: collapse;
+  width: 900px;
+  margin: 10px 0;
+  /* height: 500px; */
+}
+
+.property__table td {
+  border: 1px solid #a9a9a9;
+  text-align: center;
+}
+
+.property__table .property__caption {
+  font-weight: 700;
+}
+
+.property__table .property__name {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.property__table td[rowspan] {
+  font-size: 0.7em;
+  color: #008b8b;
+  font-weight: 500;
+}
+
+.property__table tr:nth-child(2n + 1) {
+  background-color: #dcdcdc;
+}
+
+.property__table th {
+  background-color: #2e8b57;
+  color: #d3d3d3;
+  text-transform: uppercase;
+  padding: 5px 0;
+  font-size: 0.9rem;
+}
+
+/* ======================== Product Page end ================== */
