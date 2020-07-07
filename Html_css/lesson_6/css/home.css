@@ -1,4 +1,6 @@
 @import "featured.css";
+@import "promo.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -76,20 +78,32 @@ body {
   width: 470px;
   margin-top: 288px;
 }
-.slider__text p {
+.small-text {
   color: #6c6c6c;
-  font-size: 14px;
   font-weight: 300;
+}
+.slider__text_small {
+  font-size: 14px;
   line-height: 24px;
+}
+
+.title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
 }
 .slider__text_green {
   color: #43a047;
   font-size: 18px;
-  font-weight: 700;
   line-height: 18px;
-  text-transform: uppercase;
-  letter-spacing: 1.8px;
   margin-bottom: 22px;
+}
+
+.big-text {
+  color: #212121;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
 }
 .slider__text_big {
   font-size: 58px;
