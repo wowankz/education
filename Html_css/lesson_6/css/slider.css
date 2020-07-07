@@ -1,6 +1,8 @@
 @import "featured.css";
 @import "promo.css";
 @import "trending.css";
+@import "exclusive.css";
+@import "mobile-app.css";
 
 * {
   margin: 0;
@@ -16,16 +18,23 @@ body {
   width: 1366px;
   margin: 0 auto;
 }
-.slider {
-  padding: 63px 167px 19px 98px;
-}
 
-.slider_top {
-  background-image: url(../img/slider-img-top.jpg);
+/* ========== Slider ========== */
+.slider__box {
   height: 800px;
   width: 1366px;
   position: relative;
+  padding: 63px 167px 19px 98px;
 }
+
+.slider__box_top {
+  background-image: url(../img/slider-img-top.jpg);
+}
+
+.slider__box_hot {
+  background-image: url(../img/slider-hot.jpg);
+}
+/* ========== Slider header ========== */
 .header {
   display: flex;
   justify-content: space-between;
@@ -65,7 +74,7 @@ body {
   border-bottom: 3px solid #212121;
 }
 
-.menu__link:not([data-search]):hover {
+.menu__link:not([data-name]):hover {
   color: #212121;
   font-weight: 700;
   border-bottom: 3px solid #212121;
@@ -75,9 +84,16 @@ body {
   width: 23px;
   height: 23px;
 }
-.slider__text {
+/* ========== Slider header end ========== */
+/* ========== Slider content ========== */
+.slider__text_top {
   width: 470px;
   margin-top: 288px;
+}
+
+.slider__text_hot {
+  width: 470px;
+  margin-top: 224px;
 }
 .small-text {
   color: #6c6c6c;
@@ -92,12 +108,21 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.8px;
+  margin-bottom: 22px;
 }
 .slider__text_green {
   color: #43a047;
   font-size: 18px;
   line-height: 18px;
-  margin-bottom: 22px;
+}
+
+.slider__text_red {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #e53935;
+  letter-spacing: 1.8px;
 }
 
 .big-text {
@@ -115,13 +140,6 @@ body {
 }
 
 .slider__button {
-  /* width: 212px;
-  height: 45px;
-  margin-top: 32px;
-  box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
-  border-radius: 23px;
-  background-color: #ffffff;
-  text-align: center; */
   line-height: 45px;
 }
 .button__link {
@@ -144,6 +162,9 @@ body {
   content: url(../img/arrow.svg);
   margin-left: 22px;
 }
+/* ========== Slider content end========== */
+
+/*========== Bottom navigation ==========*/
 .slider__navigation {
   position: absolute;
   bottom: 19px;
@@ -165,3 +186,4 @@ body {
   margin: 0 5px;
   background-color: #212121;
 }
+/*========== Bottom navigation end ==========*/

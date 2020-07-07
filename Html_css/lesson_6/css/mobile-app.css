@@ -1,0 +1,59 @@
+.mobile-app {
+  padding: 125px 853px 120px 98px;
+}
+.mobile-app_size-fixed {
+  width: 1366px;
+  height: 516px;
+  background-image: url(../img/mobile-app-back-img.jpg);
+}
+.mobile-app__content {
+  width: 435px;
+  height: 271px;
+}
+.mobile-app__title {
+  color: #6c6c6c;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  margin-bottom: 10px;
+}
+.mobile-app__name {
+  color: #212121;
+  font-size: 57px;
+  font-weight: 100;
+  line-height: 72px;
+  text-transform: uppercase;
+  margin-bottom: 14 px;
+}
+.mobile-app__details {
+  color: #6c6c6c;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.mobile-app__store {
+  margin-top: 33px;
+}
+.mobile-app__app-store {
+  display: inline-block;
+  width: 135px;
+  height: 40px;
+  background-image: url(../img/app-store.jpg);
+}
+.mobile-app__app-store_margin-r {
+  margin-right: 5px;
+}
+.mobile-app__google-play {
+  display: inline-block;
+  width: 135px;
+  height: 40px;
+  background-image: url(../img/google-play.jpg);
+}
+
+.mobile-app__link {
+  display: block;
+  width: 135px;
+  height: 40px;
+}
