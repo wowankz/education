@@ -2,8 +2,7 @@
   width: 1366px;
   height: 1108px;
 }
-.products {
-}
+
 .trending__products {
   width: 1171px;
   height: 867px;
@@ -18,8 +17,7 @@
   font-size: 36px;
   font-weight: 700;
 }
-.products__button {
-}
+
 .products__content {
   display: flex;
   justify-content: space-between;
