@@ -101,6 +101,7 @@
   background-color: #ffffff;
   opacity: 0.9;
   text-align: center;
+  z-index: -1;
 }
 
 .content-hover__icon {
@@ -111,6 +112,11 @@
   border-radius: 50%;
   background-color: #ffffff;
   margin: 70px 111px 14px;
+}
+
+.content-hover__icon:hover {
+  /* box-shadow: -1px 0px 5px 1px rgba(33, 33, 33, 0.35); */
+  background-color: #ebebeb;
 }
 .icon-arrow {
   width: 12px;

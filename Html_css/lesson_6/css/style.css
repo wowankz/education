@@ -1,0 +1,22 @@
+@import "slider.css";
+@import "featured.css";
+@import "promo.css";
+@import "trending.css";
+@import "exclusive.css";
+@import "mobile-app.css";
+@import "footer.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
