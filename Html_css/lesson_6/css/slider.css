@@ -162,15 +162,21 @@ body {
   content: url(../img/arrow.svg);
   margin-left: 22px;
 }
+
+.button__link:hover {
+  box-shadow: none;
+}
 /* ========== Slider content end========== */
 
 /*========== Bottom navigation ==========*/
 .slider__navigation {
   position: absolute;
   bottom: 19px;
-  left: 623px;
-  width: 120px;
+  left: 0;
+  right: 0;
+  /* width: 140px; */
   height: 40px;
+  text-align: center;
 }
 .circle {
   display: inline-block;
@@ -180,10 +186,21 @@ body {
   border-radius: 50%;
   margin-bottom: 4px;
 }
+.circle:hover {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  background-color: #212121;
+}
 .circle_active {
   width: 40px;
   height: 40px;
   margin: 0 5px;
   background-color: #212121;
+}
+.circle:hover .circle_active {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 4px;
 }
 /*========== Bottom navigation end ==========*/
