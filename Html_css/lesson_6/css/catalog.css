@@ -83,3 +83,25 @@
   width: 42px;
   height: 29px;
 }
+
+img.tab__load-img {
+  animation: 1s linear 0s normal none infinite running tab__load-img;
+  -webkit-animation: 1s linear 0s normal none infinite running tab__load-img;
+  /* width: 100px; */
+}
+@keyframes tab__load-img {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes tab__load-img {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
