@@ -1,12 +1,13 @@
 .trending_size-fixed {
   width: 1366px;
-  height: 1108px;
+  /* height: 1108px; */
+  padding: 119px 98px 90px 98px;
 }
 
 .trending__products {
-  width: 1171px;
-  height: 867px;
-  margin: 119px 97px 120px 98px;
+  width: 1170px;
+  /* height: 867px; */
+  /* margin: 119px 97px 120px 98px; */
 }
 .products__head {
   display: flex;
@@ -23,11 +24,12 @@
   justify-content: space-between;
   flex-wrap: wrap;
   width: 1170px;
-  height: 770px;
+  /* height: 770px; */
   margin-top: 64px;
 }
 .product {
   position: relative;
+  margin-bottom: 30px;
 }
 .product:hover > .content-hover_big {
   z-index: 2;
