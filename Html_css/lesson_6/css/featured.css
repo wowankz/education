@@ -1,0 +1,147 @@
+.featured {
+  width: 1366px;
+  /* height: 609px; */
+  padding: 120px 98px;
+}
+.featured__products {
+  width: 1171px;
+  /* height: 369px;
+  margin: 120px auto; */
+}
+.tab-nav {
+  list-style-type: none;
+}
+.tab-nav_float_left {
+  float: left;
+  border-bottom: 1px solid #6c6c6c;
+}
+.tab-nav__item {
+  display: inline-block;
+  padding: 0 20px 8px 9px;
+}
+.tab-nav__link {
+  color: #6c6c6c;
+  font-size: 36px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.tab-nav__item_active {
+  border-bottom: 3px solid #212121;
+}
+
+.tab-nav__item_active > a {
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.tab-nav__item:hover {
+  border-bottom: 3px solid #212121;
+}
+
+.tab-nav__item:hover > a {
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.featured__button {
+  display: block;
+  float: right;
+  color: #212121;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.featured__button::after {
+  display: inline-block;
+  content: url(../img/arrow.svg);
+  width: 9px;
+  height: 12px;
+  margin-left: 12px;
+  margin-bottom: 1px;
+  line-height: 24px;
+}
+
+.featured__button:hover {
+  padding-bottom: 6px;
+  border-bottom: 3px solid #212121;
+}
+
+.tab-content {
+  display: flex;
+  justify-content: space-between;
+}
+.featured__tab-content {
+  width: 1170px;
+  /* height: 270px; */
+  padding-top: 50px;
+}
+.img-box {
+  position: relative;
+  width: 270px;
+  height: 270px;
+  z-index: 1;
+}
+
+.img-box:hover > .content-hover {
+  z-index: 2;
+}
+
+.content-hover {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  border: 1px solid #9c9c9c;
+  background-color: #ffffff;
+  opacity: 0.9;
+  text-align: center;
+  z-index: -1;
+}
+
+.content-hover__icon {
+  display: block;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin: 70px 111px 14px;
+}
+
+.content-hover__icon:hover {
+  /* box-shadow: -1px 0px 5px 1px rgba(33, 33, 33, 0.35); */
+  background-color: #ebebeb;
+}
+.content-hover__icon:active {
+  box-shadow: none;
+}
+.icon-arrow {
+  width: 12px;
+  height: 20px;
+  margin: 14px auto;
+}
+.content-hover__title {
+  color: #212121;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.content-hover__text {
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 26px;
+}
+.featured__product-img {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+}
