@@ -1,0 +1,108 @@
+/* ========== Slider ========== */
+.slider__box {
+  height: 800px;
+  width: 1366px;
+  position: relative;
+  padding: 63px 167px 19px 98px;
+}
+
+.slider__box_top {
+  background-image: url(../img/slider-img-top.jpg);
+}
+
+.slider__box_hot {
+  background-image: url(../img/slider-hot.jpg);
+}
+
+/* ========== Slider content ========== */
+.slider__text_top {
+  width: 470px;
+  margin-top: 288px;
+}
+
+.slider__text_hot {
+  width: 470px;
+  margin-top: 224px;
+}
+.small-text {
+  color: #6c6c6c;
+  font-weight: 300;
+}
+.slider__text_small {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  margin-bottom: 22px;
+}
+.slider__text_green {
+  color: #43a047;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.slider__text_red {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #e53935;
+  letter-spacing: 1.8px;
+}
+
+.big-text {
+  color: #212121;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+}
+.slider__text_big {
+  font-size: 58px;
+  font-weight: 100;
+  text-transform: uppercase;
+  line-height: 41px;
+  margin-bottom: 34px;
+}
+
+/* ========== Slider content end========== */
+
+/*========== Bottom navigation ==========*/
+.slider__navigation {
+  position: absolute;
+  bottom: 19px;
+  left: 0;
+  right: 0;
+  /* width: 140px; */
+  height: 40px;
+  text-align: center;
+}
+.circle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #c7c7c7;
+  border-radius: 50%;
+  margin-bottom: 4px;
+}
+.circle:hover {
+  width: 40px;
+  height: 40px;
+  margin: 0 -5px;
+  background-color: #212121;
+}
+.circle_active {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px !important;
+  background-color: #212121;
+}
+.circle:hover .circle_active {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 4px;
+}
+/*========== Bottom navigation end ==========*/
