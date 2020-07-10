@@ -114,13 +114,17 @@
   line-height: 71px;
   letter-spacing: 4.4px;
 }
-.product-detail__link_red:hover {
+.product-detail__link_red:active {
   box-shadow: none;
+}
+.product-detail__link_red:hover > .product-detail__arrow {
+  visibility: visible;
 }
 .product-detail__arrow {
   width: 15px;
   height: 22px;
   margin: 0 5px -3px;
+  visibility: hidden;
 }
 .product-detail__desc {
   text-align: left;
