@@ -1,0 +1,53 @@
+.slider {
+  background-image: url(../../images/slider-bg-img.jpg);
+  height: 537px;
+  background-color: rgba(102, 102, 102, 0.81);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 85px;
+}
+
+.slider__title {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 48px;
+}
+.slider-icon {
+  margin: 90px 0 51px;
+}
+.slider__content {
+  display: flex;
+  justify-content: space-between;
+}
+.slider__link {
+  text-decoration: none;
+  display: inline-block;
+}
+.slider__icon-arrow_left {
+  margin-right: 80px;
+  margin-top: 15px;
+}
+.slider__text {
+  color: #ffffff;
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.slider__text_bold {
+  font-family: "Roboto - Bold Condensed";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.slider__text_big {
+  font-size: 16px;
+  font-weight: 300;
+}
+.slider__icon-arrow_right {
+  margin-left: 80px;
+  margin-top: 15px;
+}
