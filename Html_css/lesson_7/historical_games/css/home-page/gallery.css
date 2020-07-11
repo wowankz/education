@@ -3,10 +3,7 @@
   text-align: center;
   padding-bottom: 186px;
 }
-.container__content {
-}
-.title-h2 {
-}
+
 .gallery {
   display: flex;
   justify-content: space-between;
@@ -17,22 +14,18 @@
   background-color: #f7f7f7;
   text-align: center;
   display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-}
-.gallery-img__box {
-}
 .gallery__img {
   width: 270px;
   height: 376px;
 }
-.gallery_h5{
-    padding: 0 20px;
+.gallery_h5 {
+  padding: 0 20px;
 }
-.gallery-button {
-}
+
 .gallery-button__link {
   display: inline-block;
   width: 130px;

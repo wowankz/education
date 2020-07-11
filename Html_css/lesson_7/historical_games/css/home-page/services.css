@@ -51,4 +51,6 @@
   background-color: #f44336;
 }
 .service__content-icon {
+  width: 22px;
+  height: 22px;
 }
