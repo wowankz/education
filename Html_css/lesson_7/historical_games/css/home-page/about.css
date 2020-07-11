@@ -1,0 +1,27 @@
+.about-us {
+  padding: 81px 0;
+}
+
+.about-us__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-us__info {
+  padding: 14px 33px 58px 1px;
+}
+
+.about-us__text {
+  color: #999999;
+  font-family: "Roboto Condensed";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.12px;
+  padding-top: 35px;
+}
+
+.about-us__img {
+  width: 540px;
+  height: 338px;
+}

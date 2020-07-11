@@ -1,0 +1,42 @@
+.service {
+  background-color: #f7f7f7;
+  padding: 92px 0 106px 0;
+  text-align: center;
+}
+
+.service__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 87px;
+}
+.service__content-box {
+  flex-basis: 50%;
+  display: flex;
+  margin-bottom: 70px;
+}
+.service__content-box:nth-of-type(2n-1) {
+  text-align: right;
+}
+.service__content-box:nth-of-type(2n) {
+  text-align: left;
+  flex-direction: row-reverse;
+}
+.service__content-info {
+}
+
+.service__content-text {
+  margin-top: 18px;
+}
+.service__content-circle {
+  min-width: 102px;
+  min-height: 102px;
+  border: 1px solid #acacac;
+  background-color: #e1e1e1;
+  border-radius: 50%;
+  margin: 0 45px 0 66px;
+  text-align: center;
+  padding: 35px 0;
+}
+.service__content-icon {
+}

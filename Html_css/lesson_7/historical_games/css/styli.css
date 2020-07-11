@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,10 +9,28 @@
 
 .container {
   max-width: 1920px;
-  padding-top: 13px;
 }
 
 .container__content {
   max-width: 1170px;
   margin: 0 auto;
+}
+.title-h2 {
+  color: #f44336;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.title-h5 {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.16px;
+}
+.title-h5_red {
+  color: #f44336;
 }
