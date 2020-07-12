@@ -1,0 +1,32 @@
+.team {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 98px 0 80px;
+}
+
+.team__content {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: 60px;
+}
+.team__card {
+}
+.team__card-img {
+}
+.team__name {
+}
+.team__job {
+  color: #838383;
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 48px;
+}
+.team-social {
+}
+.team-social__link {
+  margin-right: 17px;
+}
+.team-social__icon {
+}
