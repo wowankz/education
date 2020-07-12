@@ -41,3 +41,9 @@
   text-decoration: none;
   margin: 10px 0 15px 0;
 }
+.gallery-button__link:hover {
+  box-shadow: 2px 2px 4px 0px #000;
+}
+.gallery-button__link:active {
+  box-shadow: none;
+}

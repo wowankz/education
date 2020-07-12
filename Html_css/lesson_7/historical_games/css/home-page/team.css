@@ -10,12 +10,7 @@
   text-align: left;
   margin-top: 60px;
 }
-.team__card {
-}
-.team__card-img {
-}
-.team__name {
-}
+
 .team__job {
   color: #838383;
   font-family: "Roboto Condensed";
@@ -23,10 +18,15 @@
   font-weight: 300;
   line-height: 48px;
 }
-.team-social {
-}
+
 .team-social__link {
   margin-right: 17px;
 }
 .team-social__icon {
+  opacity: 0.6;
+  width: 30px;
+  height: 30px;
+}
+.team-social__icon:hover {
+  opacity: 1;
 }

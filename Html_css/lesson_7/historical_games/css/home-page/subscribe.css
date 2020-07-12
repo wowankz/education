@@ -1,8 +1,6 @@
 .subscribe {
   background-image: url(../../images/subscribe-bg.png);
   background-size: cover;
-  width: 1920px;
-  height: 313px;
   text-align: center;
   padding: 86px 0 70px;
 }
@@ -31,7 +29,9 @@
   font-size: 15px;
   font-weight: 300;
   line-height: 48px;
+  border: none;
 }
+
 .subscribe__button {
   width: 119px;
   height: 56px;
@@ -41,4 +41,14 @@
   font-size: 15px;
   font-weight: 300;
   line-height: 48px;
+  border: none;
+}
+.subscribe__button:hover {
+  box-shadow: 2px 2px 4px 0px #000;
+}
+.subscribe__button:active {
+  box-shadow: none;
+}
+.subscribe__button:focus {
+  outline: none;
 }

@@ -1,0 +1,13 @@
+.map {
+  padding-top: 96px;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.map__box {
+  margin-top: 25px;
+}
+.map__data {
+  width: 1169px;
+  height: 298px;
+}

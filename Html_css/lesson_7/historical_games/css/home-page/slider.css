@@ -2,7 +2,7 @@
   background-image: url(../../images/slider-bg-img.jpg);
   height: 537px;
   background-color: rgba(102, 102, 102, 0.81);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   padding-top: 85px;
@@ -25,6 +25,9 @@
 .slider__link {
   text-decoration: none;
   display: inline-block;
+}
+.slider__link:hover > img {
+  background-color: #838383;
 }
 .slider__icon-arrow_left {
   margin-right: 80px;

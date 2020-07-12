@@ -41,6 +41,9 @@
   letter-spacing: 0.36px;
   text-decoration: none;
 }
+.header__email:hover {
+  text-decoration: underline;
+}
 .form-search {
   display: flex;
 }
@@ -69,11 +72,8 @@
   border-left: none;
   padding: 10px 15px;
 }
-.search-button {
-  display: block;
-  margin: 10px auto 10px;
-  width: 18px;
-  height: 19px;
+.form-search__button:hover {
+  background-color: rgb(86, 84, 84);
 }
 
 .header__menu {
@@ -93,8 +93,14 @@
 .menu__item_active {
   border-bottom: 3px solid #fff;
 }
+.menu__item_active > a {
+  color: #ffffff;
+}
 .menu__item:hover {
   border-bottom: 3px solid #fff;
+}
+.menu__item:active > .menu__link {
+  color: #fff;
 }
 .menu__link {
   color: #000000;
@@ -135,6 +141,11 @@
 .social-icons__link {
   text-decoration: none;
 }
+
 .social-icons__icon {
   margin: 0 5px;
+}
+.social-icons__icon:hover {
+  background-color: #7c7a7a;
+  border-radius: 50%;
 }
