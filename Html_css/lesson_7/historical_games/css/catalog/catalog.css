@@ -1,0 +1,25 @@
+@import "../styli.css";
+@import "../home-page/header.css";
+@import "../home-page/gallery.css";
+@import "../home-page/contact.css";
+@import "../home-page/map.css";
+
+.header__img_none {
+  background-image: none;
+  min-height: auto;
+}
+.header__menu {
+  border-bottom: 1px solid #000;
+}
+.menu__item:hover {
+  border-bottom: 3px solid #000;
+}
+.menu__item:hover > .menu__link {
+  color: #000 !important;
+}
+.menu__item_active_black {
+  border-bottom: 3px solid #000;
+}
+.menu__link {
+  color: #8c8c8c;
+}
