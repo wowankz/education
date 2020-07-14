@@ -4,6 +4,9 @@
 @import "../home-page/contact.css";
 @import "../home-page/map.css";
 
+.container {
+  background-color: #f7f7f7;
+}
 .header__img_none {
   background-image: none;
   min-height: auto;
@@ -22,4 +25,23 @@
 }
 .menu__link {
   color: #8c8c8c;
+}
+
+.our-gallery__button {
+  border: 1px solid #000000;
+  color: #000000;
+  font-family: "Roboto Condensed";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.36px;
+  padding: 11px 49px 11px 36px;
+  display: inline-flex;
+}
+
+.our-gallery__arrow {
+  font-size: 34px;
+  display: inline-block;
+  margin-left: 10px;
+  line-height: 19px;
 }
