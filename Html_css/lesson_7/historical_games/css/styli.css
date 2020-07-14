@@ -54,6 +54,10 @@ a {
 .copy__date {
   letter-spacing: 0.16px;
 }
+.copy__text_red {
+  color: #f44336;
+  letter-spacing: 0.16px;
+}
 .button-up {
   position: fixed;
   right: 55px;

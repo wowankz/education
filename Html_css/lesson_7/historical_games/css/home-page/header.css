@@ -87,7 +87,7 @@
 }
 .menu__item {
   list-style-type: none;
-
+  margin-bottom: -2px;
   padding: 30px 25px 28px 25px;
 }
 .menu__item_active {
@@ -122,9 +122,11 @@
   line-height: 48px;
   letter-spacing: 0.18px;
 }
-.header__content-text span {
-  border-bottom: 2px solid #fff;
-  padding-bottom: 16px;
+.header__content-text hr {
+  border: 1px solid #fff;
+  margin: auto;
+  color: #fff;
+  width: 80px;
 }
 .header__content-title {
   margin-top: 76px;

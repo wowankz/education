@@ -49,3 +49,15 @@
 .gallery-button__link:active {
   box-shadow: none;
 }
+
+.gallery-button__link_big {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 62px;
+  letter-spacing: 0.3px;
+  width: 265px;
+  height: 62px;
+  margin-top: 19px;
+}
