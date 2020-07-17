@@ -25,6 +25,7 @@ body {
   font-weight: 100;
   line-height: 7.2rem;
   text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 .content-text {
   color: #6c6c6c;
@@ -33,4 +34,31 @@ body {
   line-height: 2.4rem;
 }
 .content-button {
+  display: block;
+  color: #212121;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.36rem;
+  width: 21.2rem;
+  height: 4.5rem;
+  margin-top: 3.2rem;
+  border-radius: 2.3rem;
+  background-color: #ffffff;
+  text-decoration: none;
+  padding-left: 3.3rem;
+  &:hover {
+    box-shadow: 0 0.2rem 0.5rem 0.1rem rgba(33, 33, 33, 0.35);
+    .content-button__arrow {
+      display: inline-block;
+    }
+  }
+  &:active {
+    box-shadow: none;
+  }
+
+  &__arrow {
+    display: none;
+    margin-left: 1.2rem;
+  }
 }

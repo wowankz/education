@@ -6,7 +6,7 @@
   padding: 6.3rem 16.7rem 1.9rem 6.8rem;
   position: relative;
   &__content {
-    width: 48.8rem;
+    width: 49.8rem;
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 4.8rem;
@@ -30,6 +30,12 @@
     background-color: #c7c7c7;
     margin: 0 0.5rem;
     &_active {
+      width: 4rem;
+      height: 4rem;
+      background-color: #212121;
+    }
+
+    &:active {
       width: 4rem;
       height: 4rem;
       background-color: #212121;
