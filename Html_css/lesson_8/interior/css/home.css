@@ -11,8 +11,15 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+@media screen and (max-width: 1366px) {
+  html,
+  body {
+    font-size: 0.732vw;
+  }
+}
+
 .container {
-  max-width: 1366px;
+  max-width: 136.6rem;
   margin: 0 auto;
 }
 
@@ -75,7 +82,7 @@ body {
 
 .header {
   background-image: url(../img/bg-header.jpg);
-  height: 800px;
+  height: 80rem;
   background-position: center center;
   -webkit-background-size: cover;
           background-size: cover;
@@ -93,7 +100,7 @@ body {
 .header__bottom {
   position: absolute;
   bottom: 1.9rem;
-  width: 1366px;
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -107,6 +114,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   line-height: 4rem;
+  margin-left: -68px;
 }
 
 .header__bottom-link {
@@ -125,10 +133,11 @@ body {
   background-color: #212121;
 }
 
-.header__bottom-link:active {
+.header__bottom-link:hover:not([class$="_active"]) {
   width: 4rem;
   height: 4rem;
   background-color: #212121;
+  margin: 0;
 }
 
 .header-top {
@@ -184,6 +193,10 @@ body {
 
 .header-top__menu-item:hover {
   border-bottom: 0.3rem solid #212121;
+}
+
+.header-top__menu-item:hover:last-child {
+  border-bottom: none;
 }
 
 .header-top__menu-item:hover a {

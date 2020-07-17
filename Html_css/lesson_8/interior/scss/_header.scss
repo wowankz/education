@@ -15,11 +15,12 @@
   &__bottom {
     position: absolute;
     bottom: 1.9rem;
-    width: $width-content;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     line-height: 4rem;
+    margin-left: -68px;
   }
 
   &__bottom-link {
@@ -35,10 +36,11 @@
       background-color: #212121;
     }
 
-    &:active {
+    &:hover:not([class$="_active"]) {
       width: 4rem;
       height: 4rem;
       background-color: #212121;
+      margin: 0;
     }
   }
 }
@@ -80,6 +82,9 @@
 
     &:hover {
       border-bottom: 0.3rem solid #212121;
+    }
+    &:hover:last-child {
+      border-bottom: none;
     }
 
     &:hover a {
