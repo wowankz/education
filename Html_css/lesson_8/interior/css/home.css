@@ -8,10 +8,11 @@
 html,
 body {
   font-size: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1366px;
   margin: 0 auto;
 }
 
@@ -23,7 +24,7 @@ body {
 .content-h1 {
   color: #212121;
   font-size: 6.2rem;
-  font-weight: 400;
+  font-weight: 100;
   line-height: 7.2rem;
   text-transform: uppercase;
 }
@@ -37,20 +38,25 @@ body {
 
 .header {
   background-image: url(../img/bg-header.jpg);
-  height: 80rem;
+  height: 800px;
   background-position: center center;
   -webkit-background-size: cover;
           background-size: cover;
   padding: 6.3rem 16.7rem 1.9rem 6.8rem;
+  position: relative;
 }
 
 .header__content {
+  width: 48.8rem;
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 4.8rem;
 }
 
 .header__bottom {
+  position: absolute;
+  bottom: 1.9rem;
+  width: 1366px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -95,6 +101,7 @@ body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 22.8rem;
 }
 
 .header-top__logo {
@@ -132,9 +139,20 @@ body {
   letter-spacing: 0.14rem;
 }
 
+.header-top__menu-item:hover {
+  border-bottom: 0.3rem solid #212121;
+}
+
+.header-top__menu-item:hover a {
+  color: #212121;
+  font-weight: 700;
+  letter-spacing: 0.14rem;
+}
+
 .header-top__menu-link {
   color: #8c8c8c;
-  font-weight: 300;
-  letter-spacing: 1.4px;
+  font-weight: 700;
+  letter-spacing: 0.14rem;
   text-decoration: none;
+  margin: 0 1rem;
 }

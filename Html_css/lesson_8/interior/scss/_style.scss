@@ -1,4 +1,4 @@
-$width-content: 1200px;
+$width-content: 1366px;
 
 * {
   margin: 0;
@@ -9,6 +9,7 @@ $width-content: 1200px;
 html,
 body {
   font-size: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 .container {
   max-width: $width-content;
@@ -21,7 +22,7 @@ body {
 .content-h1 {
   color: #212121;
   font-size: 6.2rem;
-  font-weight: 400;
+  font-weight: 100;
   line-height: 7.2rem;
   text-transform: uppercase;
 }
