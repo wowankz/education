@@ -5,7 +5,9 @@ $width-content: 136.6rem;
   padding: 0;
   box-sizing: border-box;
 }
-
+a {
+  text-decoration: none;
+}
 html,
 body {
   font-size: 10px;
@@ -65,5 +67,25 @@ body {
   &__arrow {
     display: none;
     margin-left: 1.2rem;
+  }
+}
+
+.explore-link {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2rem;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #212121;
+  letter-spacing: 3.6px;
+  padding-bottom: 6px;
+  &__arrow {
+    color: #6c6c6c;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-left: 1rem;
+  }
+  &:hover {
+    border-bottom: 3px solid #212121;
   }
 }
