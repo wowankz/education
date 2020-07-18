@@ -77,8 +77,9 @@ body {
   display: inline-block;
   text-transform: uppercase;
   color: #212121;
-  letter-spacing: 3.6px;
-  padding-bottom: 6px;
+  letter-spacing: 0.36rem;
+  padding-bottom: 0.6rem;
+  border: 0.3rem solid transparent;
   &__arrow {
     color: #6c6c6c;
     font-size: 1.5rem;
@@ -86,6 +87,6 @@ body {
     margin-left: 1rem;
   }
   &:hover {
-    border-bottom: 3px solid #212121;
+    border-bottom: 0.3rem solid #212121;
   }
 }
