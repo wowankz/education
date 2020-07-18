@@ -20,7 +20,7 @@
     justify-content: center;
     align-items: center;
     line-height: 4rem;
-    margin-left: -68px;
+    margin-left: -6.8rem;
   }
 
   &__bottom-link {
@@ -59,7 +59,7 @@
     color: #8c8c8c;
     font-size: 1.4rem;
     font-weight: 300;
-    line-height: 4.8rem;
+    line-height: 4rem;
     text-transform: uppercase;
   }
 
@@ -70,6 +70,10 @@
   }
 
   &__menu-item {
+    &:last-child {
+      padding-top: 0.6rem;
+    }
+
     &_active {
       border-bottom: 0.3rem solid #212121;
     }
@@ -100,5 +104,8 @@
     letter-spacing: 0.14rem;
     text-decoration: none;
     margin: 0 1rem;
+    & > i.fa-search {
+      font-size: 2.3rem;
+    }
   }
 }

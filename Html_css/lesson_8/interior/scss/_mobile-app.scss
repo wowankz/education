@@ -1,0 +1,66 @@
+.mobile-app {
+  padding: 12.5rem 85.3rem 12rem 9.8rem;
+  background-image: url(../img/mobile-app-back-img.jpg);
+  background-size: cover;
+  background-position: center;
+
+  &__content {
+    width: 43.5rem;
+    height: 27.1rem;
+  }
+
+  &__title {
+    color: #6c6c6c;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18rem;
+    margin-bottom: 1rem;
+  }
+
+  &__name {
+    color: #212121;
+    font-size: 5.7rem;
+    font-weight: 100;
+    line-height: 7.2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.4rem;
+  }
+
+  &__details {
+    color: #6c6c6c;
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 2rem;
+  }
+
+  &__store {
+    margin-top: 3.3rem;
+  }
+
+  &__app-store {
+    display: inline-block;
+    width: 13.5rem;
+    height: 4rem;
+    background-image: url(../img/app-store.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 0.5rem;
+  }
+
+  &__link {
+    display: block;
+    width: 13.5rem;
+    height: 4rem;
+  }
+
+  &__google-play {
+    display: inline-block;
+    width: 13.5rem;
+    height: 4rem;
+    background-image: url(../img/google-play.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}

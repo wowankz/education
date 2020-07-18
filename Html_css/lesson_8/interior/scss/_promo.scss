@@ -14,6 +14,8 @@
   padding-left: 5.1rem;
   &_left {
     background-image: url(../img/promo-left.jpg);
+    background-size: cover;
+    background-position: center;
   }
 
   &_right {

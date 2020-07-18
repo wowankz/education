@@ -15,16 +15,26 @@ body {
   @media screen and (max-width: 1366px) {
     & {
       font-size: 0.732vw;
+      padding: 0 0.5rem;
     }
   }
 }
 .container {
   max-width: $width-content;
   margin: 0 auto;
+  // @media screen and (max-width: 1366px) {
+  //   & {
+  //     padding: 0 0.5rem;
+  //   }
+  // }
 }
 .content-title {
   color: #43a047;
   letter-spacing: 0.18rem;
+  text-transform: uppercase;
+}
+.content-title_red {
+  color: #e53935;
 }
 .content-h1 {
   color: #212121;
@@ -54,6 +64,7 @@ body {
   background-color: #ffffff;
   text-decoration: none;
   padding-left: 3.3rem;
+  line-height: 4.8rem;
   &:hover {
     box-shadow: 0 0.2rem 0.5rem 0.1rem rgba(33, 33, 33, 0.35);
     .content-button__arrow {

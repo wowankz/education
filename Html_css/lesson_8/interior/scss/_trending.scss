@@ -6,6 +6,7 @@
   &__head {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   &__title {
@@ -62,6 +63,7 @@
   &__hover-title {
     font-size: 3rem;
     margin: 0 2.6rem;
+    margin-bottom: 1.6rem;
   }
 
   &__hover-text {
