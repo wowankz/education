@@ -525,3 +525,13 @@ body {
   width: 37rem;
   height: 37rem;
 }
+
+.slider {
+  background-image: url(../img/slider-hot.jpg);
+  height: 80rem;
+  background-position: center center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding: 26.7rem 16.7rem 1.9rem 6.8rem;
+  position: relative;
+}
