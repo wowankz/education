@@ -75,20 +75,11 @@
   }
 }
 img.products__load-img {
-  animation: 1s linear 0s normal none infinite running products__load-img;
-  -webkit-animation: 1s linear 0s normal none infinite running
-    products__load-img;
-  /* width: 100px; */
+  animation: 1s linear 0s normal none infinite products__load-img;
+  // -webkit-animation: 1s linear 0s normal none infinite running
+  //   products__load-img;
 }
 @keyframes products__load-img {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(-360deg);
-  }
-}
-@-webkit-keyframes products__load-img {
   0% {
     transform: rotate(0deg);
   }
