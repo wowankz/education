@@ -15,7 +15,7 @@ body {
   @media screen and (max-width: 1366px) {
     & {
       font-size: 0.732vw;
-      padding: 0 0.5rem;
+      padding: 0 0.2rem;
     }
   }
 }
@@ -32,13 +32,15 @@ body {
   color: #43a047;
   letter-spacing: 0.18rem;
   text-transform: uppercase;
+  margin-top: 3rem;
+  display: inline-block;
 }
 .content-title_red {
   color: #e53935;
 }
 .content-h1 {
   color: #212121;
-  font-size: 6.2rem;
+  font-size: 5.2rem;
   font-weight: 100;
   line-height: 7.2rem;
   text-transform: uppercase;

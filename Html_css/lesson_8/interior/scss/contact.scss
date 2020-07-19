@@ -29,7 +29,7 @@
     text-align: center;
   }
   &__card:hover {
-    box-shadow: 0.8rem 0.9rem 2rem 1rem #9e9e9e63;
+    box-shadow: 0rem 0rem 1rem 0rem #9e9e9e63;
   }
 
   &__icon {
@@ -54,9 +54,6 @@
     }
   }
 
-  &__info-name {
-  }
-
   &__info-data {
     color: #212121;
     a {
@@ -64,7 +61,7 @@
       text-decoration: none;
     }
     a:hover {
-      border-bottom: 2px solid #212121;
+      border-bottom: 0.2rem solid #212121;
     }
     &_light {
       font-weight: 300;
