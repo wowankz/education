@@ -905,7 +905,8 @@ body {
 }
 
 .social-link:hover {
-  color: #504f4f;
+  color: #6c6c6c;
+  background-color: #d9dee1;
 }
 
 .terms__list {
