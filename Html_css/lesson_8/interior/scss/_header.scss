@@ -3,7 +3,7 @@
   height: $width-content / 1.7075;
   background-position: center center;
   background-size: cover;
-  padding: 6.3rem 16.7rem 1.9rem 6.8rem;
+  padding: 5.3rem 16.7rem 1.9rem 9.8rem;
   position: relative;
   &__content {
     width: 49.8rem;
@@ -59,7 +59,7 @@
     color: #8c8c8c;
     font-size: 1.4rem;
     font-weight: 300;
-    line-height: 4rem;
+    // line-height: 4rem;
     text-transform: uppercase;
   }
 
@@ -70,8 +70,9 @@
   }
 
   &__menu-item {
-    &:last-child {
-      padding-top: 0.6rem;
+    &:last-child a {
+      // padding-top: 0.6rem;
+      color: #212121;
     }
 
     &_active {
