@@ -352,6 +352,7 @@ body {
 
 .button-plane > img {
   border: none;
+  width: 2rem;
 }
 
 .copyright {
