@@ -1,0 +1,167 @@
+@import "_style.scss";
+@import "_header.scss";
+@import "_trending.scss";
+@import "_footer.scss";
+
+.header {
+  background-image: none;
+  height: 12rem;
+  padding: 6.3rem 9.8em 2.9rem;
+}
+
+.product-detail {
+  &_title {
+    color: #212121;
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-top: 2.8rem;
+  }
+
+  &__menu {
+    height: 7rem;
+    background-color: #f4f4f4;
+    text-align: center;
+    line-height: 7rem;
+    padding-left: 10rem;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    padding: 7.2rem 9.8rem;
+  }
+
+  &__desc-box {
+    text-align: center;
+    margin-left: 6rem;
+    width: 57rem;
+  }
+
+  &__tag {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 4.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18rem;
+    &_red {
+      color: #e53935;
+    }
+  }
+
+  &__price {
+    color: #212121;
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 4.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    span {
+      font-size: 7.2rem;
+      text-transform: uppercase;
+    }
+  }
+
+  &__button {
+    line-height: 7.1rem;
+  }
+
+  &__button:hover &__button-arrow {
+    visibility: visible;
+  }
+
+  &__button-arrow {
+    font-size: 2rem;
+    margin-left: 1rem;
+    visibility: hidden;
+  }
+
+  &__link {
+    color: #6c6c6c;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.18rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5rem 2.8rem 0.5rem 0;
+    &_red {
+      display: block;
+      text-decoration: none;
+      width: 51rem;
+      height: 7.1rem;
+
+      border-radius: 3.5rem;
+      background-color: #f44336;
+      color: #ffffff;
+      font-size: 2.2rem;
+      font-weight: 700;
+      line-height: 2.4rem;
+      text-transform: uppercase;
+      line-height: 7.1rem;
+      letter-spacing: 0.44rem;
+      &:hover {
+        box-shadow: 0 0.2rem 0.5rem 0.1rem rgba(33, 33, 33, 0.35);
+      }
+      &:active {
+        box-shadow: none;
+      }
+    }
+  }
+
+  &__desc {
+    text-align: left;
+    margin-top: 4.9rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+    letter-spacing: 0.04rem;
+    span {
+      display: inline-block;
+      margin-bottom: 1.4rem;
+    }
+  }
+}
+.product-detail__menu {
+  &-link {
+    color: #6c6c6c;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.18rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5rem 1.4rem 0.5rem 1.4rem;
+    &_active {
+      color: #212121;
+      letter-spacing: 0.18rem;
+      border-bottom: 0.3rem solid #212121;
+    }
+    &:hover {
+      color: #212121;
+      letter-spacing: 0.18rem;
+      border-bottom: 0.3rem solid #212121;
+    }
+  }
+}
+.product-detail__slider {
+  &-image_big {
+    width: 57rem;
+    height: 57rem;
+  }
+
+  &-image_small {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  &-image_small:hover {
+    opacity: 0.4;
+  }
+
+  &__box {
+    margin-bottom: 1rem;
+  }
+
+  &-images {
+    text-align: center;
+  }
+}

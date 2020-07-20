@@ -1,0 +1,76 @@
+@import "style.css";
+@import "navbar.css";
+@import "footer.css";
+
+.header__content {
+  width: 1366px;
+  height: 360px;
+  background-color: #f5f5f5;
+  padding: 63px 167px 44px 98px;
+}
+
+.header__h1 {
+  color: #212121;
+  font-size: 62px;
+  font-weight: 100;
+  line-height: 72px;
+  margin-top: 150px;
+}
+
+.contact {
+  padding: 71px 98px 122px;
+}
+.location {
+  display: flex;
+  justify-content: space-between;
+}
+.location__card {
+  width: 370px;
+  height: 370px;
+  border: 1px solid #9c9c9c;
+  background-color: #ffffff;
+  opacity: 0.9;
+  text-align: center;
+}
+.location__icon {
+  margin: 40px 0 26px;
+}
+
+.location-img {
+  width: 38px;
+  height: 48px;
+}
+.location__h2 {
+  color: #212121;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.location__info {
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.location__info p {
+  margin: 15px 0;
+}
+
+.location__info-data {
+  color: #212121;
+}
+
+.location__info-data a {
+  color: #212121;
+  text-decoration: none;
+}
+
+.location__info-data a:hover {
+  border-bottom: 2px solid #212121;
+}
+
+.location__info-data_light {
+  font-weight: 300;
+}
